@@ -1,5 +1,7 @@
 <template>
+<div class="position_L">
   <el-button :type="type_" @click="click" :disabled="disabled">{{title_}}</el-button>
+</div>
 </template>
 
 <script>
@@ -29,5 +31,7 @@ export default {
 </script>
 
 <style>
-
+  .position_L{
+    margin-right: 20px;
+  }
 </style>
